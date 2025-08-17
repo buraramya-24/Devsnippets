@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DevSnippets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💡 DevSnippets</h1>
+    <form id="addForm">
+      <input type="text" placeholder="Title" required>
+      <textarea placeholder="Your code..." required></textarea>
+      <input type="text" placeholder="Tag (e.g., js, python)">
+      <button type="submit">Save Snippet</button>
+    </form>
+
+    <input type="text" placeholder="Search snippets..." onkeyup="searchSnippets()">
+
+    <div id="snippets"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
